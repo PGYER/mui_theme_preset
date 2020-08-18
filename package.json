@@ -1,0 +1,16 @@
+{
+  "name": "@pgyer/mui-theme-preset",
+  "version": "0.0.1",
+  "description": "theme presets for pgyer's mui-based project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://codefever.pgyer.com/PGYER/mui_theme_preset.git"
+  },
+  "dependencies": {
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/core": "^4.11.0"
+  },
+  "author": "PGYER INFRA",
+  "license": "ISC"
+}
