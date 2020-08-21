@@ -8,16 +8,7 @@ const MuiSnackbarContent = (theme, palette) => {
       color: palette.text.light
     },
     message: {
-      color: palette.text.light,
-      '&>div>em': {
-        width: theme.spacing(0.5),
-        height: '100%',
-        position: 'absolute',
-        top: '0px',
-        left: '0px',
-        borderTopLeftRadius: theme.spacing(0.5),
-        borderBottomLeftRadius: theme.spacing(0.5)
-      }
+      color: palette.text.light
     }
   }
 }

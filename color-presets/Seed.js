@@ -48,7 +48,7 @@ const text = {
 }
 
 const background = {
-  dark: '#e9edf4',
+  dark: '#f9f9f9',
   main: '#f6f6f6',
   light: '#ffffff',
   paginationHover: primary.lighter

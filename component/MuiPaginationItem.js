@@ -1,5 +1,4 @@
 const MuiPaginationItem = (theme, palette) => {
-  console.log(palette.background.paginationHover)
   return {
     page: {
       '&:hover': {
