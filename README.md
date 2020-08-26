@@ -10,8 +10,8 @@
 
 ```shell
 
-    yarn add git+ssh:git@codefever.pgyer.com:PGYER/mui_theme_preset.git@latest
-    yarn upgrade @pgyer/mui-theme-preset
+yarn add git+ssh:git@codefever.pgyer.com:PGYER/mui_theme_preset.git@latest
+yarn upgrade @pgyer/mui-theme-preset
 
 ```
 
@@ -29,7 +29,7 @@
 
 ```javascript
 
-  import makePreset from '@pgyer/mui-theme-preset'
+import makePreset from '@pgyer/mui-theme-preset'
 
 ```
 
@@ -37,17 +37,17 @@
 
 ```jsx
 
-    import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
 
-    ...
+...
 
-    const theme = createMuiTheme(makePreset(originTheme, 'Seed'))
+const theme = createMuiTheme(makePreset(originTheme, 'Seed'))
 
-    ...
+...
 
-    <MuiThemeProvider theme={theme} >
-      ...
-    </MuiThemeProvider>
+<MuiThemeProvider theme={theme} >
+  ...
+</MuiThemeProvider>
 
 ```
 
@@ -55,23 +55,23 @@
 
 ```jsx
 
-    import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
 
-    ...
+...
 
-    const baseTheme = makePreset(createMuiTheme({}), 'Seed')
-    const theme = createMuiTheme({
-      ...baseTheme,
-      overwriteItem: {
-        ...overwriteTheme
-      }
-    })
+const baseTheme = makePreset(createMuiTheme({}), 'Seed')
+const theme = createMuiTheme({
+  ...baseTheme,
+  overwriteItem: {
+    ...overwriteTheme
+  }
+})
 
-    ...
+...
 
-    <MuiThemeProvider theme={theme} >
-      ...
-    </MuiThemeProvider>
+<MuiThemeProvider theme={theme} >
+  ...
+</MuiThemeProvider>
 
 ```
 

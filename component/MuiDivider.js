@@ -1,7 +1,7 @@
 const MuiDivider = (theme, palette) => {
   return {
     root: {
-      backgroundColor: theme.border
+      backgroundColor: palette.border
     }
   }
 }
