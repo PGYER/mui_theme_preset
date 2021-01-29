@@ -1,5 +1,6 @@
 import * as innerPalette from '@material-ui/core/colors'
 
+import PgyerColorPresets from './color-presets/Pgyer'
 import CodeFeverColorPresets from './color-presets/CodeFever'
 import SeedColorPresets from './color-presets/Seed'
 import FrontJSColorPresets from './color-presets/FrontJS'
@@ -39,6 +40,7 @@ import MuiTooltip from './component/MuiTooltip'
 
 function makeTheme (originTheme, colorPresetName) {
   const presetPalette = {
+    Pgyer: PgyerColorPresets,
     Seed: SeedColorPresets,
     CodeFever: CodeFeverColorPresets,
     FrontJS: FrontJSColorPresets
