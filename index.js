@@ -1,6 +1,7 @@
 import * as innerPalette from '@material-ui/core/colors'
 
 import PgyerColorPresets from './color-presets/Pgyer'
+import TracupColorPresets from './color-presets/Tracup'
 import CodeFeverColorPresets from './color-presets/CodeFever'
 import SeedColorPresets from './color-presets/Seed'
 import FrontJSColorPresets from './color-presets/FrontJS'
@@ -12,6 +13,8 @@ import MuiAppBar from './component/MuiAppBar'
 import MuiAvatar from './component/MuiAvatar'
 import MuiBackdrop from './component/MuiBackdrop'
 import MuiButton from './component/MuiButton'
+import MuiDialog from './component/MuiDialog'
+import MuiDialogTitle from './component/MuiDialogTitle'
 import MuiDivider from './component/MuiDivider'
 import MuiDrawer from './component/MuiDrawer'
 import MuiExpansionPanel from './component/MuiExpansionPanel'
@@ -41,6 +44,7 @@ import MuiTooltip from './component/MuiTooltip'
 function makeTheme (originTheme, colorPresetName) {
   const presetPalette = {
     Pgyer: PgyerColorPresets,
+    Tracup: TracupColorPresets,
     Seed: SeedColorPresets,
     CodeFever: CodeFeverColorPresets,
     FrontJS: FrontJSColorPresets
@@ -60,6 +64,8 @@ function makeTheme (originTheme, colorPresetName) {
       MuiAvatar: MuiAvatar(originTheme, palette),
       MuiBackdrop: MuiBackdrop(originTheme, palette),
       MuiButton: MuiButton(originTheme, palette),
+      MuiDialog: MuiDialog(originTheme, palette),
+      MuiDialogTitle: MuiDialogTitle(originTheme, palette),
       MuiDivider: MuiDivider(originTheme, palette),
       MuiDrawer: MuiDrawer(originTheme, palette),
       MuiExpansionPanel: MuiExpansionPanel(originTheme, palette),
