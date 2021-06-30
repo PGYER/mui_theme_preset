@@ -10,7 +10,7 @@ const secondary = {
   contrastText: '#FFF',
   dark: '#226fb0',
   light: '#5ab2fc',
-  main: '#319ffc',
+  main: '#3C86FF',
   lighter: '#eaf5ff'
 }
 
