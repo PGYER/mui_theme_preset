@@ -17,9 +17,9 @@ import MuiDialog from './component/MuiDialog'
 import MuiDialogTitle from './component/MuiDialogTitle'
 import MuiDivider from './component/MuiDivider'
 import MuiDrawer from './component/MuiDrawer'
-import MuiExpansionPanel from './component/MuiExpansionPanel'
-import MuiExpansionPanelDetails from './component/MuiExpansionPanelDetails'
-import MuiExpansionPanelSummary from './component/MuiExpansionPanelSummary'
+import MuiMuiAccordion from './component/MuiMuiAccordion'
+import MuiMuiAccordionDetails from './component/MuiMuiAccordionDetails'
+import MuiMuiAccordionSummary from './component/MuiMuiAccordionSummary'
 import MuiIconButton from './component/MuiIconButton'
 import MuiInput from './component/MuiInput'
 import MuiInputAdornment from './component/MuiInputAdornment'
@@ -68,9 +68,9 @@ function makeTheme (originTheme, colorPresetName) {
       MuiDialogTitle: MuiDialogTitle(originTheme, palette),
       MuiDivider: MuiDivider(originTheme, palette),
       MuiDrawer: MuiDrawer(originTheme, palette),
-      MuiExpansionPanel: MuiExpansionPanel(originTheme, palette),
-      MuiExpansionPanelDetails: MuiExpansionPanelDetails(originTheme, palette),
-      MuiExpansionPanelSummary: MuiExpansionPanelSummary(originTheme, palette),
+      MuiMuiAccordion: MuiMuiAccordion(originTheme, palette),
+      MuiMuiAccordionDetails: MuiMuiAccordionDetails(originTheme, palette),
+      MuiMuiAccordionSummary: MuiMuiAccordionSummary(originTheme, palette),
       MuiIconButton: MuiIconButton(originTheme, palette),
       MuiInput: MuiInput(originTheme, palette),
       MuiInputAdornment: MuiInputAdornment(originTheme, palette),
