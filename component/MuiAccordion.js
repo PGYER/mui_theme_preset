@@ -1,4 +1,4 @@
-const MuiExpansionPanel = (theme, palette) => {
+const MuiAccordion = (theme, palette) => {
   return {
     root: {
       '&$disabled': {
@@ -14,4 +14,4 @@ const MuiExpansionPanel = (theme, palette) => {
   }
 }
 
-export default MuiExpansionPanel
+export default MuiAccordion

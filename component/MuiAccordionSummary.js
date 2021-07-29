@@ -1,4 +1,4 @@
-const MuiExpansionPanelSummary = (theme, palette) => {
+const MuiAccordionSummary = (theme, palette) => {
   return {
     root: {
       '&$expanded': {
@@ -19,4 +19,4 @@ const MuiExpansionPanelSummary = (theme, palette) => {
   }
 }
 
-export default MuiExpansionPanelSummary
+export default MuiAccordionSummary

@@ -6,4 +6,4 @@ const MuiExpansionPanelDetails = (theme, palette) => {
   }
 }
 
-export default MuiExpansionPanelDetails
+export default MuiAccordionDetails
