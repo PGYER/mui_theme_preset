@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://codefever.pgyer.com/PGYER/mui_theme_preset.git"
+    "url": "https://github.com/PGYER/mui_theme_preset.git"
   },
   "peerDependencies": {
     "@material-ui/lab": "^4.0.0-alpha.56",
