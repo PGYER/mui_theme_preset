@@ -2,6 +2,9 @@ import boxShadow from '../style/BoxShadow'
 
 const MuiPaper = (theme, palette) => {
   return {
+    root: {
+      pointerEvents: 'auto'
+    },
     rounded: {
       'border-radius': 4
     },
