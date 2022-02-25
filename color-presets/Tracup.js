@@ -1,17 +1,17 @@
 const primary = {
   contrastText: '#FFF',
-  lighter: '#EEEF8',
-  dark: '#0E324D',
-  light: '#3F5972',
-  main: '#34495E'
+  lighter: '#E5EBFD',
+  dark: '#002DBD',
+  light: '#EDF2FE',
+  main: '#2359F5'
 }
 
 const secondary = {
   contrastText: '#FFF',
-  dark: '#226fb0',
-  light: '#5ab2fc',
-  main: '#3C86FF',
-  lighter: '#eaf5ff'
+  dark: '#226FB0',
+  light: '#5AB2FC',
+  main: '#319FFC',
+  lighter: '#EAF5FF'
 }
 
 const info = secondary
@@ -19,46 +19,39 @@ const info = secondary
 const success = {
   contrastText: '#FFF',
   dark: '#198417',
-  light: '#50ca4d',
-  main: '#25bd21',
-  lighter: '#ebfaea'
+  light: '#50CA4D',
+  main: '#25BD21',
+  lighter: '#EBFAEA'
 }
 
 const warning = {
   contrastText: '#FFF',
-  dark: '#ac800b',
-  light: '#f7c640',
-  main: '#f6b811'
+  dark: '#AC800B',
+  light: '#F7C640',
+  main: '#F6B811'
 }
 
 const error = {
   contrastText: '#FFF',
-  dark: '#a33232',
-  light: '#ee6c6c',
-  main: '#ea4848',
-  lighter: '#fdecec'
+  dark: '#A33232',
+  light: '#EE6C6C',
+  main: '#EA4848',
+  lighter: '#FDECEC'
 }
 
-const border = '#dee2ec'
+const border = '#E8EAF2'
 
 const text = {
-  main: '#2f354d',
-  light: '#7a859e',
-  lighter: '#b1b6c3'
+  main: '#212433',
+  light: '#7C859C',
+  lighter: '#A1AAC2'
 }
 
 const background = {
-  dark: '#E9EDF4',
-  main: '#F1F3F7',
-  light: '#ffffff',
-  addition: '#e6ffed',
-  deletion: '#ffeef0',
-  diffLabel: '#f1f8ff',
-  additionDark: '#cdffd8',
-  deletionDark: '#ffdce0',
-  additionDarker: '#acf2bd',
-  deletionDarker: '#fdb8c0',
-  diffLabelDark: '#dbedff',
+  main: '#F9FAFC',
+  light: '#FFFFFF',
+  lighter: '#F7F8FA',
+  dark: '#E0E2EC',
   paginationHover: primary.lighter
 }
 
