@@ -1,7 +1,7 @@
 const primary = {
   contrastText: '#FFF',
   lighter: '#EDF2FE',
-  dark: '#002DBD',
+  dark: '#1F38E0',
   light: '#4D72F2',
   main: '#2359F5'
 }
