@@ -25,6 +25,20 @@ const MuiTooltip = (theme, palette) => {
       '&::after': {
         top: '6px'
       }
+    },
+    tooltipPlacementRight: {
+      '&::after': {
+        left: '3px',
+        top: '50%',
+        marginTop: '-6px'
+      }
+    },
+    tooltipPlacementLeft: {
+      '&::after': {
+        left: 'calc(100% - 3px)',
+        top: '50%',
+        marginTop: '-6px'
+      }
     }
   }
 }
