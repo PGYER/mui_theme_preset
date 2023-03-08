@@ -1,9 +1,8 @@
 {
   "name": "@pgyer/mui-theme-preset",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "theme presets for pgyer's mui-based project",
   "main": "index.js",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/PGYER/mui_theme_preset.git"
